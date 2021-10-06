@@ -1,0 +1,272 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+.body-home {
+    background-image: url('images/back.jpg') ;
+    background-position: center;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals {
+    background-image: url('images/background-02-port.png') ;
+    background-position: center;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-order {
+    background-image: url('images/bg.jpg') ;
+    background-position: center;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*================== HEADER ==================*/
+
+#header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-image: url('images/blk-bg.png');
+    background-repeat: repeat-x;
+
+}
+
+#header img{
+    display: block;
+    margin: auto;
+    height: 70%;
+    padding-top: 15px;
+
+}
+#header h1{
+    font-size: 25px;
+    text-align: center;
+    margin: 50px;
+    padding: 5px;
+    font-family:fantasy ;
+}
+
+/*================== TOP-TABS ==================*/
+
+#tabs-top{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+
+}
+
+
+
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: rgb(233, 200, 12);
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+  /*==================== HOME =================*/
+
+  #home{
+    margin-top: 120px;
+}
+
+
+/*============== HOME PAGE ==========*/
+
+#home-logo-img {
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+#home-logo-text {
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+/*======= HOME PAGE MENU =======*/
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.home-menu{
+    padding-top: 25px;
+    padding-left: 25px;
+     
+}
+
+/*============== MEALS PAGE ==========*/
+
+#meals {
+    padding-top: 50px;
+    margin-top: 100px;
+}
+
+/*======= MEALS PAGE MENU =======*/
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item {
+    border: 5px solid black;
+    margin: 10px;
+
+}
+
+.meals-list-item  h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+
+}
+
+
+.meals-list-item i {
+    float: right;
+    color: #1a1a1a;
+    padding-right: 20px;
+
+}
+
+
+.meals-list-item p {
+    font-size: 30px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*============== ORDER PAGE ==========*/
+
+#order {
+    padding-top: 150px;
+   
+}
+
+/*======= ORDER DETAILS =======*/
+
+.order-details img {
+    width: 50%;
+    padding-left: 10px;
+    
+}
+
+.order-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.order-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.order-details-info p {
+    font-size: 13px;
+    display: ;
+
+}
+
+
+ input{
+    width: 40%;
+    height: 25px;
+    margin: 12PX 0;
+    border: #929292;
+}
+textarea{
+    width: 50%;
+    height: 65px;
+    margin: 12px 0;
+    border: #929292;
+}
+
+.button{
+    display: block;
+    width: 20%;
+    background-color: forestgreen;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+
+/*============== RESPONSIVE LAYOUT ==========*/
+@media only screen and (min-width:600px) {
+    #meal {
+        width: 80%;
+        margin: auto;
+    }
+    #order {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #meal {
+        width: 60%;
+        margin: auto;
+    }
+    #order {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #meal {
+        width: 50%;
+        margin: auto;
+    }
+    #order {
+        width: 50%;
+        margin: auto;
+    }
+}
+
